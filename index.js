@@ -17,7 +17,10 @@ function add2(n) {
   return n + two;
 }
 
-let funkyFunction = (funk) => funk = () => "FUNKY!"
+let funkyFunction = () => {
+ let funk = () => "FUNKY!";
+ return funk;
+}
 
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.

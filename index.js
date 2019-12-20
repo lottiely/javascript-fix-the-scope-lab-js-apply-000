@@ -17,8 +17,8 @@ function add2(n) {
   return n + two;
 }
 
-let funkyFunction = () => {=
- return "FUNKY"
+let funkyFunction = () => {
+  
 }
 
 
